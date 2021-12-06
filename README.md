@@ -17,3 +17,5 @@ Se va a incluir un formulario para que un usuario pueda agregar notas. Para ello
 También es necesario incluir un formulario con un controlador de eventos para reaccionar a la escritura de una nueva nota.
 Después, hay que incluir los instrumentos para controlar la escritura en el elemento input del formulario. Esto se hace con un nuevo hook de estado y un nuevo controlador de eventos.
 
+Lo siguiente será dar una funcionalidad que nos permita ver solo las notas importantes. Para ello, añadiremos otro hook de estado que haga el seguimiento de las notas según su importancia. También habrá que incluir un componente que controle qué notas son las que se muestran. Finalmente, se incluye un botón para alternar entre mostrar todas las notas o solo las importantes.
+
