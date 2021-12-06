@@ -12,3 +12,8 @@ También sacamos cada nota a partir de un nuevo componente llamado 'Note'. He ut
 También exportaremos el componente creado, como un nuevo módulo que se colocará en una carpeta llamada 'components'
 App también es un componente que se importará como módulo aunque, en este caso particular, se coloca en 'src'.
 
+# b. Formularios
+Se va a incluir un formulario para que un usuario pueda agregar notas. Para ello se utiliza un hook de estado que se inicializa con la matriz de notas inicial y se actualiza con las notas agregadas por el usuario. Todo esto se hace en el componente App. He tenido que incluir los props como argumento de App porque si no la aplicación se rompe.
+También es necesario incluir un formulario con un controlador de eventos para reaccionar a la escritura de una nueva nota.
+Después, hay que incluir los instrumentos para controlar la escritura en el elemento input del formulario. Esto se hace con un nuevo hook de estado y un nuevo controlador de eventos.
+
